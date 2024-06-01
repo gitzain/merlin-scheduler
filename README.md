@@ -4,16 +4,14 @@ Simplify scheduling scripts on your Asuswrt-Merlin based router. Just drop your 
 The project includes bash scripts to capture and send vital information from the Asuswrt-Merlin router to InfluxDB to be displayed in Grafana.
 
 ## Table of content
-- [merlin-scheduler](#merlin-scheduler)
-  - [Table of content](#table-of-content)
-  - [Motivation](#motivation)
-  - [Installation \& Usage](#installation--usage)
+- [Motivation](#motivation)
+- [Installation \& Usage](#installation--usage)
     - [Installation](#installation)
     - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [History](#history)
-  - [Credits](#credits)
-  - [License](#license)
+- [Contributing](#contributing)
+- [History](#history)
+- [Credits](#credits)
+- [License](#license)
 
 ## Motivation
 I was tired of manually running scripts to monitor my Asuswrt-Merlin router. I wanted a simpler way to track things like ping times, internet speeds, and connected devices. This project automates scheduling those scripts and the default scripts integrate with InfluxDB and Grafana, giving me a clean and easy-to-read dashboard of network's health.
