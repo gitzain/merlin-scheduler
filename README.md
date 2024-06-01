@@ -35,7 +35,7 @@ Write your bash script and simply drop it into the appropriate folder. For examp
 5. Submit a pull request :D
 
 ## History
-v0.1: Beta
+09/04/22: v0.1 Beta
 
 ## Credits
 - Inspired by <a href="https://github.com/gitzain/merlin-scheduler">merlin-scheduler</a>.
