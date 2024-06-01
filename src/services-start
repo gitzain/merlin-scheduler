@@ -2,7 +2,7 @@
 # This script get called after all other system services 
 # have been started at boot on router
 # ---------------------------------------------------------
-cru a sem "* * * * * /jffs/scripts/script-engine/setup/minute.sh"
-cru a sehh "*/30 * * * * /jffs/scripts/script-engine/setup/half-hour.sh"
-cru a seh "0 * * * * /jffs/scripts/script-engine/setup/hour.sh"
-cru a sed "0 0 * * * /jffs/scripts/script-engine/setup/day.sh"
+cru a sem "* * * * * /jffs/scripts/merlin-scheduler/setup/minute.sh"
+cru a sehh "*/30 * * * * /jffs/scripts/merlin-scheduler/setup/half-hour.sh"
+cru a seh "0 * * * * /jffs/scripts/merlin-scheduler/setup/hour.sh"
+cru a sed "0 0 * * * /jffs/scripts/merlin-scheduler/setup/day.sh"
